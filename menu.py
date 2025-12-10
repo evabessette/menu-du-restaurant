@@ -6,7 +6,6 @@ def main():
     afficher_desserts()
     #afficher_breuvages (personne 5 à valider)
 
-    # Les autres ajouteront leur code ici
 
 
 def afficher_entrees():
