@@ -1,6 +1,6 @@
 # Structure de départ (Personne 1)
 def main():
-    print("#### MENU DU RESTAURANT ####")
+    print("--- MENU DU RESTAURANT ---")
     afficher_entrees()
     afficher_plats_principaux()
     afficher_desserts()
