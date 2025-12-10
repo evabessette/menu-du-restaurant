@@ -6,7 +6,6 @@ def main():
     afficher_desserts()
     #afficher_breuvages (personne 5 à valider)
 
-    # Les autres ajouteront leur code ici
 
 
 def afficher_entrees():
@@ -16,15 +15,12 @@ def afficher_entrees():
     print("3. Bruschettas maison - 7.25$")
 
 def afficher_plats_principaux():
-    print("---- PLATS PRINCIPAUX ----\n1. Poulet à l'orange \n2. Tacos \n3. Poutine")
-
+    print("---- PLATS PRINCIPAUX ----\n1. Poulet à l'orange - 12.99$ \n2. Tacos de luxe 400.99$ \n3. Poutine - 9.99$")
 
 def afficher_desserts ():
     desserts = ["1. Mousse au chocolat - 5.50$ ", "2.Mille-feuille - 6.00$", "3.Tiramisu - 6.50$"]
     for dessert in desserts:
         print (dessert)    
-
-
 
 afficher_plats_principaux()
 if __name__ == "__main__":
