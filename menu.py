@@ -3,6 +3,9 @@ def main():
     print("---- MENU DU RESTAURANT ----")
     afficher_entrees()
     afficher_plats_principaux()
+    afficher_desserts()
+    #afficher_breuvages (personne 5 à valider)
+
     # Les autres ajouteront leur code ici
 
 
@@ -14,6 +17,14 @@ def afficher_entrees():
 
 def afficher_plats_principaux():
     print("---- PLATS PRINCIPAUX ----\n1. Poulet à l'orange \n2. Tacos \n3. Poutine")
+
+
+def afficher_desserts ():
+    desserts = ["1. Mousse au chocolat - 5.50$ ", "2.Mille-feuille - 6.00$", "3.Tiramisu - 6.50$"]
+    for dessert in desserts:
+        print (dessert)    
+
+
 
 afficher_plats_principaux()
 if __name__ == "__main__":
