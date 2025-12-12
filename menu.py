@@ -4,7 +4,6 @@ def main():
     afficher_entrees()
     afficher_plats_principaux()
     afficher_desserts()
-    #afficher_breuvages (personne 5 à valider)
 
 
 
