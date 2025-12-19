@@ -13,7 +13,7 @@
  
 1. git clone [https://github.com/evabessette/menu-du-restaurant.git]
 2. cd menu-du-restaurant
-3. python main.py
+3. menu.py
  
 ## Fonctionnalités
  
@@ -24,3 +24,4 @@
  
 ## Leçons Apprises
 - Reconnaître les actions qui peuvent créer un conflit
+
